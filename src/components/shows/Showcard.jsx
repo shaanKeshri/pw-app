@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 const Showcard = ({
   name,
   img,
@@ -14,9 +15,9 @@ const Showcard = ({
       <img src={img} alt="poster" />
       <p>{about}</p>
       <div>
-        <a href={`/show/${id}`} target="_blank" rel="noreferrer">
+        <Link to={`/show/${id}`} target="_blank" rel="noreferrer">
           Expend
-        </a>
+        </Link>
         <button type="button" onClick={() => onCollectClick(id)}>
           {addedToCollect ? 'Uncollect' : 'Collect'}
         </button>
