@@ -1,4 +1,5 @@
 import Actorcard from './Actorcard';
+import noImage from '../../lib/noImage.png';
 
 const Actorsgrid = ({ actors }) => {
   return (
@@ -7,9 +8,7 @@ const Actorsgrid = ({ actors }) => {
         <Actorcard
           key={data.person.id}
           name={data.person.name}
-          img={
-            data.person.image ? data.person.image.medium : '/no image-small.png'
-          }
+          img={data.person.image ? data.person.image.medium : noImage}
           gender={data.person.gender}
           country={data.person.country ? data.person.country.name : null}
           birthday={data.person.birthday}

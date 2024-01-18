@@ -1,5 +1,6 @@
 import Showcard from './Showcard';
 import { ListCollectedShows } from '../../lib/ListCollectedShows';
+import noImage from '../../lib/noImage.png';
 
 //section moved to ListCollectedShows.jsx to
 // const useLocalReducer = (reducer, initState, localStorageKey) => {
@@ -47,7 +48,7 @@ const Showgrid = ({ shows }) => {
           id={data.show.id}
           key={data.show.id}
           name={data.show.name}
-          img={data.show.image ? data.show.image.medium : '/no image-small.png'}
+          img={data.show.image ? data.show.image.medium : noImage}
           summary={data.show.summary}
           onCollectClick={onClickCollect}
           addedToCollect={collect.includes(data.show.id)}
