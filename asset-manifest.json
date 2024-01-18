@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/pw-app/static/css/main.f855e6bc.css",
-    "main.js": "/pw-app/static/js/main.19e3cde2.js",
+    "main.js": "/pw-app/static/js/main.31c0b6aa.js",
     "static/js/787.d4aba7ab.chunk.js": "/pw-app/static/js/787.d4aba7ab.chunk.js",
     "service-worker.js": "/pw-app/service-worker.js",
     "index.html": "/pw-app/index.html",
     "main.f855e6bc.css.map": "/pw-app/static/css/main.f855e6bc.css.map",
-    "main.19e3cde2.js.map": "/pw-app/static/js/main.19e3cde2.js.map",
+    "main.31c0b6aa.js.map": "/pw-app/static/js/main.31c0b6aa.js.map",
     "787.d4aba7ab.chunk.js.map": "/pw-app/static/js/787.d4aba7ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.19e3cde2.js"
+    "static/js/main.31c0b6aa.js"
   ]
 }
