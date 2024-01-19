@@ -1,6 +1,6 @@
 {
-  "short_name": "pw-app",
-  "name": "Create pw-app Sample",
+  "short_name": "MoviesPedia",
+  "name": "MoviesPedia",
   "icons": [
     {
       "src": "favicon.ico",
